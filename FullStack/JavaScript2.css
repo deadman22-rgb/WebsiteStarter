@@ -1,0 +1,67 @@
+div {
+    width: 269px;
+    height: 269px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: funny;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+
+.class_for_fancy_css {
+    background-color: darkslategray;
+    color: darkorchid;
+    padding: 40px;
+    text-align: center;
+}
+
+@keyframes funny {
+
+    25% {
+        background-color: burlywood;
+    }
+
+    50% {
+        background-color: cornflowerblue;
+    }
+
+    75% {
+        background-color: darkslateblue;
+    }
+
+    100% {
+        background-color: bisque;
+    }
+}
+
+@keyframes lmoaFunny {
+
+    25% {
+        color: cadetblue;
+    }
+
+    50% {
+        color: goldenrod;
+    }
+
+    75% {
+        color: cornflowerblue;
+    }
+
+    100% {
+        color: darkblue;
+    }
+}
+
+p {
+    text-align: center;
+    font: bold 40px arial, verdana;
+    position: relative;
+    animation-name: lmoaFunny;
+    animation-duration: 5s;
+    animation-play-state: running;
+    animation-iteration-count: infinite
+}

@@ -1,0 +1,80 @@
+﻿<html>
+<head>
+
+    <title>
+        JS class 2
+    </title>
+
+
+</head>
+
+<body>
+
+    <h1> Taking an input from the user !! </h1>
+
+    <script>
+
+
+      
+        var n, i, check = true;
+
+        // Getting the value form text
+        // field using DOM
+       
+        n = window.prompt("type a number and i will tell you if its a prime number or not :- ");
+        for (i = 2; i <= n - 1; i++)
+            if (n % i == 0) {
+                check = false;
+                break;
+            }
+
+        // Check and display alert message
+        if (check == true) {
+            document.write(n + " is prime");
+        }
+        else {
+            document.write(n + " is not prime");
+
+        }
+
+        if (n%2 == 0) {
+            document.write(" and is even ! ")
+        }
+        else {
+            document.write(" and is odd" + "<br>")
+            
+            
+        }
+        
+        
+
+        
+        var i, a, b, lengthOfSeries, show;
+        a = 0;
+        b = 1;
+        show = 0;
+
+        lengthOfSeries = window.prompt(" how long do you want the fb series to be :- ");
+
+        document.write("<br>"+"Fibonacci series !!" + "<br> ")
+
+        for (var i = 0; i <= lengthOfSeries; i++)
+        {
+          
+            show = a + b;
+            a = b;
+            b = show;
+            document.write(b + "<br>")
+        }
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
