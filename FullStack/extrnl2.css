@@ -1,37 +1,4 @@
-#ID_FOR_FANCY_CSS {
-    background-color: aqua;
-    color: darkslateblue;
-    padding: 40px;
-    text-align: center;
-}
 
-#HEADER1 {
-    background-color: beige;
-    color: black;
-    padding: 25px;
-    text-align: center;
-    font-size: 69px;
-}
-
-#notNormal {
-    background-color: antiquewhite;
-    color: darkcyan;
-    font-size: 150px;
-}
-
-#planCss {
-    text-align: left;
-    font-size: 60px;
-    background-color: aliceblue;
-    color: black;
-}
-
-#REC {
-    text-align: left;
-    font-size: 69px;
-    background-color: aquamarine;
-    color: black;
-}
 
 .class_for_fancy_css {
     background-color: darkslategray;
@@ -62,7 +29,7 @@
 @keyframes lmoaFunny {
 
     25% {
-        color:cadetblue;
+        color: cadetblue;
     }
 
     50% {
@@ -77,9 +44,6 @@
         color: darkblue;
     }
 }
-
-
-
 p {
     text-align: center;
     font: bold 40px arial, verdana;
