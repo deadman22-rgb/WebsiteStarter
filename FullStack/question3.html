@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <title>QUESTION 3 </title>
+</head>
+<body>
+    <h1>JS QUESTIONS !!</h1>
+    <script>
+        
+
+        var totalStudents, marksStudent, sum, average, finalAverage;
+        sum = 0;
+        totalStudents = window.prompt("how many students are there in your class :- ");
+
+        
+        for (var i = 1; i <= totalStudents; i++) {
+
+            marksStudent = window.prompt("tell me the marks your students got in chronological order :- ");
+            sum += marksStudent * 1;
+        }
+
+
+    
+        finalAverage = sum / totalStudents;
+
+        document.write("total students in your class are " + totalStudents + " and the class average is :-  " + finalAverage);
+       
+    </script>
+</body>
+</html>

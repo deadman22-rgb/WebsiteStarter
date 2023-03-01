@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+    <title>QUESTION 2 </title>
+</head>
+<body>
+    <h1>JS QUESTIONS !!</h1>
+    <script>
+        
+        var totalPrice, numberOfItems, sum, priceofeachitem;
+        sum = 0;
+
+
+        numberOfItems = window.prompt("what is the quantity of the items you've bought :- ");
+
+        for (var i = 1; i <= numberOfItems; i++) {
+
+            priceofeachitem = window.prompt("price of each item :- ")
+            sum = sum + priceofeachitem++;
+            
+
+        }
+
+        
+        document.write("you've bought " + numberOfItems + " items and the total is :- " + sum);
+
+       
+    </script>
+</body>
+</html>
