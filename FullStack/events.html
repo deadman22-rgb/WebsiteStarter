@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>
+        EVENTS IN JS 
+    </title>
+
+    <script>
+        function hello() {
+            alert('hello friends i am under tha watar pliz halp me its tu much raining here ulbuubububububub');
+
+        }
+        function button() {
+            alert('the key has been lifted');
+        }
+    </script>
+</head>
+<body>
+    
+    <p>
+        A function is trigered when the user releases a key in the input field. 
+        The function transforms the character to upper case
+    </p>
+    Enter your name : <input type="text" id="fname" onkeyup="myFunction()" >
+    <button type="button" onclick="hello()">
+        click me event
+    </button>
+    <button type="button" onkeyup="button()">
+        UpKey Button
+    </button>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</body>
+</html>
